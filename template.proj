@@ -1,0 +1,13 @@
+<Project>
+    <PropertyGroup>
+        <ExampleProperty>Test Value</ExampleProperty>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="*.cs"/>
+    </ItemGroup>
+
+    <Target Name="HelloWorld">
+        <Message Text="Hello, World!"/>
+    </Target>
+</Project>
